@@ -1,0 +1,16 @@
+.footer{
+    padding: 30px 4%;
+    max-width :1000px;
+}
+.footer-icons a img {
+    display: inline-block;       
+    height: 30px;
+    margin:30px 10px;
+}
+.footer ul{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap:15px;
+    list-style: none;
+    cursor: pointer;
+}

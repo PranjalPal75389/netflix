@@ -1,0 +1,61 @@
+.login{
+    height: 100vh;
+    background-image: url(/background_banner.jpg);
+    padding:20px 8%;
+    
+}
+.login-logo{
+    width: 150px;
+}
+.login-form{
+    width: 100%;
+    max-width: 450px;
+    background-color: rgba(0,0,0,0.7);
+    margin: auto;
+    border-radius: 10px;
+    padding:10px 25px;
+}
+.login-form-title{
+    margin: 10px 24px;
+  
+}
+.login-form input{
+    width: 100%;
+    height: 35px;
+    padding: 15px 20px;
+    margin: 5px 10px;
+    margin: 10px 0;
+    border:0;
+    border-radius:5px;
+    font-weight: bold;
+}
+.login-form input::placeholder{
+    font-size: 18px;
+
+}
+.login-form button{
+    font-size: larger;
+    padding: 10px;
+    width: 100%;
+    margin: 10px 0px;
+   border: none;
+}
+
+.remember {
+    display: flex;
+    align-items: center;
+    gap:10px
+}
+.remember input{
+    width: 20px;
+    height: 20px;
+}
+.form-switch{
+    margin-left: 6px;
+    color: rgba(255, 255, 255, 0.439);
+}
+.form-switch span{
+   color:white;
+   cursor: pointer;
+   font-size: small;
+}
